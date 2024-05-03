@@ -248,8 +248,8 @@ System.out.println("Queen");
 
 
 A compilation error occurs at line n1
-Jack
-- [x] The program prints either Jack or Queen
+- [x] Jack
+The program prints either Jack or Queen
 Queen
 
 
@@ -426,8 +426,8 @@ System.out.println(str.replaceAll(".",",").replace("!", "?"));
 
 
 A.B.C?
-- [x] A,B,C?
-,,,,,,
+A,B,C?
+- [x] ,,,,,,
 A,B,C!
 
 
