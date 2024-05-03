@@ -584,3 +584,420 @@ FALSETRUE
 
 
 ____________________________________________________________________________________________
+
+- 21. 
+
+1 / 16
+Which of the following are not valid format specifiers in Java?
+The are 3 correct answers
+
+%s
+- [x]  #o
+- [x]  #n
+%c
+- [x]  #s
+%d
+
+____________________________________________________________________________________________
+
+- 22.
+
+What will be returned by the below abc() method?
+The are 1 correct answers
+
+
+char abc(){
+String string = "I am an Engineer";
+
+switch (string.length()*25/10-5+2){
+case 35: return string.charAt(0);
+case 36: return string.charAt(1);
+case 37: return string.charAt(2);
+case 38: return string.charAt(3);
+default: return '0';
+
+}
+
+}
+
+
+E
+Zero
+I
+FALSE
+- [x] a
+m
+
+____________________________________________________________________________________________
+
+- 23. 
+
+What will be the resulting output of this code?
+The are 1 correct answers
+
+
+package com. company;
+
+public class Main {
+
+public static void main(String[] args) {
+String str1 = "mnop";
+String str2 = "mop";
+
+for(int i=0; i< str1.length()-1; i++){
+if(str1.charAt(i) != str2.charAt(i)){
+System.out.print(str1.charAt(i));
+}
+
+}
+
+}
+
+}
+
+
+- [x] no
+mn
+op
+mp
+mo
+mop
+
+____________________________________________________________________________________________
+ 
+- 24. 
+
+Anticipate the result produced  by the given code?
+The are 1 correct answers
+
+package com.company;
+public class Main {
+public static void main(String[] args){
+String str = "HappyNewyear2021";
+String[] arrOfStr = str.split("p");
+System.out.print(arrOfStr[0]);
+
+}
+}
+
+2021
+- [x]  Ha
+Hap
+HappyNewyear
+syntax error
+Happ
+
+
+
+____________________________________________________________________________________________
+
+- 25.
+
+Provide the anticipated result of the given code.
+The are 1 correct answers
+package com.company;
+
+public class Main {
+
+public static void main(String[] args) {
+        String[] arr = {"Abc", "e", "fhl", "mnop"};
+        String str = "";
+
+        for(int i=0; i< arr.length; i++){
+            if(i/2 == 0){
+            str= str + " ";
+
+            }else{
+            str= str + arr[i];
+
+            }
+        }
+
+        System.out.println(str.charAt(5));
+}
+}
+
+p
+e
+A
+f
+blank space
+- [x]  m
+
+
+____________________________________________________________________________________________
+
+- 26.
+What will be the output of this Java program:
+The are 1 correct answers
+
+package com.example;
+
+public class Main {
+
+public static void main(String[] args) {
+String str = "Google";
+System.out.print(str.charAt(str.length() - 2));
+
+}
+}
+
+4
+e
+6
+- [x]  l
+Zero
+g
+
+
+
+
+____________________________________________________________________________________________
+
+- 27. 
+
+What will be printed?
+The are 1 correct answers
+
+package com.example;
+
+class StringClass{
+String str = new String("Emy is Great");
+String getString(){
+return str.substring(1,3) + str.substring(9,12);
+
+}
+
+}
+
+public class Main {
+
+public static void main(String[] args) {
+StringClass sc = new StringClass();
+System.out.println(sc.getString());
+
+}
+
+}
+
+
+my
+emy eat
+eat
+- [x]  myeat
+my eat
+emyeat
+____________________________________________________________________________________________
+
+
+- 28. 
+
+Given the code fragment:
+
+
+String s = “Hello Java“;
+
+System.out.println(s.length());
+
+s.concat(“SE 8“);
+
+System.out.println(s.length());
+
+
+What is the result?
+
+The are 1 correct answers
+
+912
+- [x]  1010
+99
+1014
+
+
+____________________________________________________________________________________________
+
+
+- 29.  
+
+Given the code fragment:
+
+
+String s1 = “foo-bar“;
+
+String s2 = new String(“foo-bar“);
+
+System.out.print(s1.equals(s2) + “ “);
+
+System.out.print(s1 == s2);
+
+System.out.print(“ “ + s1.compareTo(s2));
+
+
+What is the result?
+
+The are 1 correct answers
+
+false false -1
+- [x]  true false 0
+true true 0
+false true -1
+
+
+____________________________________________________________________________________________
+
+- 30.
+
+Which of the following are valid methods of the string class?
+
+The are 5 correct answers
+
+- [x]  replaceAll(String regex, String replacement)
+- [x]  subSequence(int beginIndex, int endIndex)
+- [x]  startsWith(String prefix, int offset)
+- [x]  toCharArray()
+isnull()
+- [x]  join(CharSequence delimiter, CharSequence… elements)
+
+
+
+_________________________________________________________________________________________
+
+
+- 31. 
+
+
+What is the probable output of the given code?
+The are 1 correct answers
+
+package com.company;
+public class Main {
+
+public static void main(String[] args) {
+String s1 = new String("happy");
+String s2 = "happy";
+System.out.print(s1.equals(s2)+" "+ (s1 == s2));
+}
+}
+
+false false
+TRUE
+true true
+- [x]  true false
+false true
+
+____________________________________________________________________________________________
+
+
+- 32. 
+
+What output should one expect  from the following code?
+The are 1 correct answers
+
+package com.company;
+public class Main {
+
+public static void main(String[] args) {
+String s1 = new String("year ");
+int num = 2022;
+System.out.print(s1+num -- );
+
+}
+}
+
+
+year 2021
+- [x]  year 2022
+none of these
+2021
+2022
+year
+
+
+____________________________________________________________________________________________
+
+
+- 33. 
+
+
+Which of the following are valid format specifiers in Java?
+
+The are 1 correct answers
+
+%x
+%n
+%t
+%c
+%d
+- [x]  All of the above
+
+
+
+____________________________________________________________________________________________
+
+
+
+- 34. 
+
+
+State whether the below statement is Correct or Incorrect. The Strings in Java are mutable in nature.
+The are 1 correct answers
+
+- [x]  Incorrect
+Correct
+
+
+
+____________________________________________________________________________________________
+
+
+
+- 35. 
+
+
+What does the trim() method of the string class do?
+The are 1 correct answers
+
+- [x] None of these
+Removes whitespace from both ends of a string
+Removes all whitespace from a string
+Removes whitespace only between the words, except from start and end
+Adds whitespace between all characters of a string
+
+ Adds whitespace only at the start and end of the string
+
+
+
+____________________________________________________________________________________________
+
+
+
+- 36. 
+
+Predict the output of the code snippet below.
+The are 1 correct answers
+
+
+package com.company;
+public class Main {
+
+public static void main(String[] args) {
+
+String s1 = "day";
+String s2 = "trading";
+System.out.print(s1 =s2="day");
+
+}
+
+}
+
+
+daytrading
+tradingtrading
+- [x]  day
+tradingday
+trading
+dayday
+
+
+____________________________________________________________________________________________
+
