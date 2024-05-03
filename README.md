@@ -507,9 +507,9 @@ int number = (int) Math.round(val);
 System.out.print(number);
 
 
-- [x] A,B,E
+A,B,E
 All of these
-A, D
+- [x] A, D
 None of these
 A
 E,F
